@@ -56,6 +56,7 @@ def uploadView(request):
         foundation = None
         if result == 0:
             foundation = "Cool"
+            foundation = "Cool"
             plts = [
                 "#FFC5DE",
                 "#F8A2AA",
@@ -93,6 +94,7 @@ def uploadView(request):
         else:
             hasSkin = False
             foundation = "No Skin Detected"
+            plts =[]
 
 
     context = {

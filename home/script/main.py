@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import sys
+from .setup import CASC_PATH
 def fileNameExtract(path):
     if (path): 
         flag = False
@@ -14,9 +15,7 @@ def fileNameExtract(path):
     raise Exception('fail to extract file name')
 
 def skinUnderTone(imgPath, pathToWrite=None):
-    
-    cascPath = "/Users/johnz/Documents/Hackabull/env/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_alt.xml"
-    faceCascade = cv2.CascadeClassifier(cascPath)
+    faceCascade = cv2.CascadeClassifier(CASC_PATH)
     
     img = cv2.imread(imgPath,)
     try:
