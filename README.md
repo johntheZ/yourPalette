@@ -1,9 +1,9 @@
 # yourPalette
 
-Welecome to yourPalette!!
+Welcome to yourPalette!
 
 Project for the Hackabull Hackathon 2023. 
-link: https://devpost.com/software/yourpalette
+Link: https://devpost.com/software/yourpalette
 
 
 ## Requirements:
