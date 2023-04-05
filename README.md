@@ -3,6 +3,7 @@
 Welcome to yourPalette!
 
 Project for the Hackabull Hackathon 2023. 
+
 Link: https://devpost.com/software/yourpalette
 
 
