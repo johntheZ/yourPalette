@@ -1,6 +1,10 @@
 # yourPalette
 
-Welecome to yourPalette!! 
+Welecome to yourPalette!!
+
+Project for the Hackabull Hackathon 2023. 
+link: https://devpost.com/software/yourpalette
+
 
 ## Requirements:
      python=3.10
